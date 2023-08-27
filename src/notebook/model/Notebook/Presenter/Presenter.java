@@ -53,4 +53,10 @@ public class Presenter {
         service.sortByName();
         getInfo();
     }
+
+    public void save(){
+        service.save();
+        getInfo();
+    }
+
 }

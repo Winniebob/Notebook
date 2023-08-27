@@ -35,7 +35,10 @@ public class Service {
         fileHandler.saves(notebook, filePath);
 
     }
-
+    public void save(){
+        String filePath = "src/notebook/model/Notebook/Notebook/Notebook.out";
+        fileHandler.saves(notebook, filePath);
+    }
     public void remove(int recordingId){
         notebook.removess(recordingId);
         String filePath = "src/notebook/model/Notebook/Notebook/Notebook.out";

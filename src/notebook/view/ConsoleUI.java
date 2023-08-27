@@ -70,6 +70,10 @@ public class ConsoleUI implements View {
         presenter.readFile();
     }
 
+    public void save(){
+        presenter.save();
+    }
+
     public void remove() {
         try {
 
